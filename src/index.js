@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "${env.DOCKER_HOST}": "https://registry-1.docker.io",
+  "proxy-docker.sliots.com": "https://registry-1.docker.io",
   "${env.QUAY_HOST}": "https://quay.io",
   "${env.GCR_HOST}": "https://gcr.io",
   "${env.K8S_GCR_HOST}": "https://k8s.gcr.io",
